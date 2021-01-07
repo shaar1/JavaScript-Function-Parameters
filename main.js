@@ -102,7 +102,7 @@ function sayHello(firstName, middelName) {
 document.getElementById("test").innerHTML = sayHello("Abdallah", "Abd");
 */
 
-
+/*
 function sayHello(firstName, middelName, lastName) {
 
     "use strict";
@@ -113,3 +113,100 @@ function sayHello(firstName, middelName, lastName) {
 }
 
 document.getElementById("test").innerHTML = sayHello("Abdallah", "Abd", "Shaar");
+*/
+
+/*
+function sayHello(firstName, middelName, lastName) {
+
+    "use strict";
+
+
+    return "Hello " + firstName + " " + middelName + " " + lastName + " How Are You Today";
+
+}
+
+document.getElementById("test").innerHTML = sayHello("Abdallah", "Abd");
+*/
+/*
+function makeDiscount(productPrice) {
+
+    "use strict";
+
+
+    return productPrice - 100;
+
+}
+
+document.getElementById("test").innerHTML = makeDiscount(1000);
+*/
+
+/*
+function makeDiscount(Price) {
+
+    "use strict";
+
+    var discount = 200
+
+    return Price - discount;
+}
+
+document.getElementById("test").innerHTML = makeDiscount(500);
+*/
+
+/*
+function makeDiscount(Price) {
+
+    "use strict";
+
+    var discount = 200
+
+    return Price - discount;
+}
+
+document.getElementById("test").innerHTML = makeDiscount(600);
+*/
+
+/*
+function calcDays(age) {
+
+    "use strict";
+
+    var year = 365
+
+    return age * year;
+}
+
+document.getElementById("test").innerHTML = calcDays(30);
+*/
+
+/*
+function calcDays(age) {
+
+    "use strict";
+
+    var year = 365
+
+    return age * year;
+}
+var dynamicAge = prompt(" Whats Your Age ?")
+
+document.getElementById("test").innerHTML = calcDays(dynamicAge);
+*/
+
+function calcDays(age) {
+
+    "use strict";
+
+    var year = 365
+
+    return age * year;
+}
+var dynamicAge = prompt(" Whats Your Age ?")
+
+document.getElementById("test").innerHTML = calcDays(dynamicAge);
+
+
+
+
+
+
