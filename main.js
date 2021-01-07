@@ -231,6 +231,64 @@ var dynamicNumbers = prompt(" Insert Two Numbers Separated By Comma")
 document.getElementById("test").innerHTML = calcNumbers(10, 350);
 */
 
+/*
+function calcNumbers(a, b, c) {
+
+    "use strict";
+
+    return a * b * c;
+}
+var dynamicNumbers = prompt(" Insert Two Numbers Separated By Comma")
+
+document.getElementById("test").innerHTML = calcNumbers(10, 350, 3);
+*/
+
+/*
+function calcNumbers(a, b, c) {
+
+    "use strict";
+
+    return a + b + c;
+}
+var dynamicNumbers = prompt(" Insert Two Numbers Separated By Comma")
+
+document.getElementById("test").innerHTML = calcNumbers(10, "350", 3);
+*/
+/*
+function calcNumbers(a, b, c) {
+
+    "use strict";
+
+    return a + b + c;
+}
+var dynamicNumbers = prompt(" Insert Two Numbers Separated By Comma")
+
+document.getElementById("test").innerHTML = calcNumbers(10, 350, 3);
+*/
+
+/*
+function calcNumbers(a, b, c) {
+
+    "use strict";
+
+    return a + b + c;
+}
+var dynamicNumbers = prompt(" Insert Two Numbers Separated By Comma")
+
+document.getElementById("test").innerHTML = calcNumbers(10, "JAS", 3);
+*/
+/*
+function calcNumbers(a, b, c) {
+
+    "use strict";
+
+    return a + b + c;
+}
+var dynamicNumbers = prompt(" Insert Two Numbers Separated By Comma")
+
+document.getElementById("test").innerHTML = calcNumbers(10, 34, 3);
+*/
+
 
 function calcNumbers(a, b, c) {
 
@@ -240,7 +298,14 @@ function calcNumbers(a, b, c) {
 }
 var dynamicNumbers = prompt(" Insert Two Numbers Separated By Comma")
 
-document.getElementById("test").innerHTML = calcNumbers(10, 350,3);
+document.getElementById("test").innerHTML = calcNumbers(10, 34, 3);
+
+
+
+
+
+
+
 
 
 
