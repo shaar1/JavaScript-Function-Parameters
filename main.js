@@ -193,6 +193,7 @@ var dynamicAge = prompt(" Whats Your Age ?")
 document.getElementById("test").innerHTML = calcDays(dynamicAge);
 */
 
+/*
 function calcDays(age) {
 
     "use strict";
@@ -204,6 +205,44 @@ function calcDays(age) {
 var dynamicAge = prompt(" Whats Your Age ?")
 
 document.getElementById("test").innerHTML = calcDays(dynamicAge);
+*/
+
+/*
+function calcNumbers(a, b) {
+
+    "use strict";
+
+    return a * b;
+}
+var dynamicNumbers = prompt(" Insert Two Numbers Separated By Comma")
+
+document.getElementById("test").innerHTML = calcNumbers(dynamicNumbers);
+*/
+/*
+
+function calcNumbers(a, b) {
+
+    "use strict";
+
+    return a * b;
+}
+var dynamicNumbers = prompt(" Insert Two Numbers Separated By Comma")
+
+document.getElementById("test").innerHTML = calcNumbers(10, 350);
+*/
+
+
+function calcNumbers(a, b, c) {
+
+    "use strict";
+
+    return a * b * c;
+}
+var dynamicNumbers = prompt(" Insert Two Numbers Separated By Comma")
+
+document.getElementById("test").innerHTML = calcNumbers(10, 350,3);
+
+
 
 
 
