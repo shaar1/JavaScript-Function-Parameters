@@ -76,7 +76,7 @@ function myAgeInDays(myAge) {
     document.getElementById("test").innerHTML = "Your Age In Days = " + myAgeInDays("Abdallah");
 */
 
-
+/*
 function sayHello(theName) {
 
     "use strict";
@@ -87,3 +87,29 @@ function sayHello(theName) {
 }
 
 document.getElementById("test").innerHTML = sayHello("Abdallah");
+*/
+
+/*
+function sayHello(firstName, middelName) {
+
+    "use strict";
+
+
+    return "Hello " + firstName + " "  + middelName + " How Are You Today";
+
+}
+
+document.getElementById("test").innerHTML = sayHello("Abdallah", "Abd");
+*/
+
+
+function sayHello(firstName, middelName, lastName) {
+
+    "use strict";
+
+
+    return "Hello " + firstName + " " + middelName + " " + lastName + " How Are You Today";
+
+}
+
+document.getElementById("test").innerHTML = sayHello("Abdallah", "Abd", "Shaar");
